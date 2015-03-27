@@ -11,6 +11,14 @@
 
 @interface Drummer : NSObject <conductorProtocol>
 
+@property (nonatomic, assign) int BPM;
+@property (nonatomic, assign) NSString *TimeSig;
+
+
+
+- (instancetype)initWithBPM:(int)beatsPerMinute TimeSig:(NSString*)timeSig;
+
+
 
 
 @end

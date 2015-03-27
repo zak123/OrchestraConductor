@@ -10,11 +10,21 @@
 
 @implementation Drummer
 
+- (instancetype)initWithBPM:(int)beatsPerMinute TimeSig:(NSString*)timeSig
+{
+    self = [super init];
+    if (self) {
+        _BPM = beatsPerMinute;
+        _TimeSig = timeSig;
+    }
+    return self;
+}
+
 -(void)stopMusic {
     NSLog(@"Drums stopped playing");
 }
 -(void)continueMusic {
-    NSLog(@"Drums started playing");
+    NSLog(@"Drums started playing at %d BPM and in a %@ time signature", self.BPM, self.TimeSig);
 }
 
 @end

@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
-        Drummer *drummer = [[Drummer alloc] init];
+        Drummer *drummer = [[Drummer alloc] initWithBPM:120 TimeSig:@"4/4"];
         [drummer stopMusic];
         [drummer continueMusic];
         
