@@ -7,11 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Conductor.h"
+#import "Drummer.h"
+#import "Violin.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Drummer *drummer = [[Drummer alloc] init];
+        [drummer stopMusic];
+        [drummer continueMusic];
+        
+        
+        Violin *violin = [[Violin alloc] init];
+        [violin stopMusic];
+        [violin continueMusic];
+        
     }
     return 0;
 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B6D694031AC50F4D0013A6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D694021AC50F4D0013A6E7 /* main.m */; };
+		B6D6940B1AC50F590013A6E7 /* Conductor.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6940A1AC50F590013A6E7 /* Conductor.m */; };
+		B6D6940E1AC50FAC0013A6E7 /* Drummer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6940D1AC50FAC0013A6E7 /* Drummer.m */; };
+		B6D694111AC510540013A6E7 /* Violin.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D694101AC510540013A6E7 /* Violin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		B6D693FF1AC50F4D0013A6E7 /* OrchestraConductor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OrchestraConductor; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D694021AC50F4D0013A6E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D694091AC50F590013A6E7 /* Conductor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conductor.h; sourceTree = "<group>"; };
+		B6D6940A1AC50F590013A6E7 /* Conductor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conductor.m; sourceTree = "<group>"; };
+		B6D6940C1AC50FAC0013A6E7 /* Drummer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drummer.h; sourceTree = "<group>"; };
+		B6D6940D1AC50FAC0013A6E7 /* Drummer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drummer.m; sourceTree = "<group>"; };
+		B6D6940F1AC510540013A6E7 /* Violin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Violin.h; sourceTree = "<group>"; };
+		B6D694101AC510540013A6E7 /* Violin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Violin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B6D694021AC50F4D0013A6E7 /* main.m */,
+				B6D6940F1AC510540013A6E7 /* Violin.h */,
+				B6D694101AC510540013A6E7 /* Violin.m */,
+				B6D694091AC50F590013A6E7 /* Conductor.h */,
+				B6D6940A1AC50F590013A6E7 /* Conductor.m */,
+				B6D6940C1AC50FAC0013A6E7 /* Drummer.h */,
+				B6D6940D1AC50FAC0013A6E7 /* Drummer.m */,
 			);
 			path = OrchestraConductor;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D694111AC510540013A6E7 /* Violin.m in Sources */,
 				B6D694031AC50F4D0013A6E7 /* main.m in Sources */,
+				B6D6940B1AC50F590013A6E7 /* Conductor.m in Sources */,
+				B6D6940E1AC50FAC0013A6E7 /* Drummer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
